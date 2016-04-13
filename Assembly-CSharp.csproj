@@ -53,6 +53,7 @@
      <Compile Include="Assets\GoogleAdwordsUnity\Adapters\GoogleAdwordsIOSAdapter.cs" />
      <Compile Include="Assets\GoogleAdwordsUnity\Adapters\IGoogleAdwordsAdapter.cs" />
      <Compile Include="Assets\GoogleAdwordsUnity\GoogleAdwordsWrapperSingleton.cs" />
+     <None Include="Assets\Plugins\iOS\README.txt" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>

@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿#if UNITY_ANDROID
+using UnityEngine;
 
 namespace Assets.GoogleAdwordsUnity.Adapters
 {
@@ -68,3 +69,4 @@ namespace Assets.GoogleAdwordsUnity.Adapters
         }
     }
 }
+#endif
