@@ -40,12 +40,12 @@ namespace Assets.GoogleAdwordsUnity.Adapters
 
         public void ConversionReporterReportWithConversionId(string conversionId, string label, string value, bool repeatable)
         {
-            GoogleAdwordsAndroidWrapper.CallStatic("ConversionReporterReportWithConversionId1", CurrentActivity, conversionId, label, value, repeatable);
+            GoogleAdwordsAndroidWrapper.CallStatic("ConversionReporterReportWithConversionId1", CurrentActivity, conversionId, label, value,  new AndroidJavaObject("java.lang.Boolean", repeatable));
         }
 
         public void ConversionReporterReportWithConversionId(string conversionId, string label, string value, string currencyCode,bool repeatable)
         {
-            GoogleAdwordsAndroidWrapper.CallStatic("ConversionReporterReportWithConversionId2", CurrentActivity, conversionId, label, value, currencyCode, repeatable);
+            GoogleAdwordsAndroidWrapper.CallStatic("ConversionReporterReportWithConversionId2", CurrentActivity, conversionId, label, value, currencyCode,  new AndroidJavaObject("java.lang.Boolean", repeatable));
         }
 
         public void AutomatedUsageReporterDisableAutomatedUsageReporting(string conversionId)
